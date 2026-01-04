@@ -119,11 +119,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
       with:
-        name: jemnut
+        name: jemnuty
         tag_name: All
         draft: false
         prerelease: false
         files: |
               ${{ env.FILE_PATH }}
         body: |
-              Mod SDCard
+              Mod SDCard1
