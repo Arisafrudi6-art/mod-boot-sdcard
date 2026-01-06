@@ -119,7 +119,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
       with:
-        name: jemnuty
+        name: openwrt_A905x_MoodSDcard
         tag_name: All
         draft: false
         prerelease: false
